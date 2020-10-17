@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_note"
+        android:hint="Enter Category" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_below="@id/etName1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add Category" />
+
+    <ListView
+        android:id="@+id/lvNote1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/lvNote2"
+        android:layout_marginTop="5dp"/>
+
+    <ListView
+        android:id="@+id/lvNote2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
